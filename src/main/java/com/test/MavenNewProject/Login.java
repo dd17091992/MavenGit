@@ -20,8 +20,8 @@ public void method() throws InterruptedException
 	
 	  driver.findElement(By.xpath("//a[text()='Sign Up Free']")).click();  
 	  driver.findElement(By.id("name")).sendKeys("manoj patil");
-	  driver.findElement(By.name("email")).sendKeys("vikapati86@gmail.com");
-	  driver.findElement(By.xpath("//*[@placeholder='Mobile']")).sendKeys("9413435775");
+	  driver.findElement(By.name("email")).sendKeys("vikapati00@gmail.com");
+	  driver.findElement(By.xpath("//*[@placeholder='Mobile']")).sendKeys("9413435000");
 	  driver.findElement(By.id("sub_btn_signup")).click();
 	  driver.findElement(By.id("otp")).sendKeys("123456");
 	  driver.findElement(By.xpath("//button[@class='btn btn-block btn-cta-primary']")).click();
@@ -30,7 +30,7 @@ public void method() throws InterruptedException
 	  driver.findElement(By.id("password")).sendKeys("lock@313");
 	  driver.findElement(By.id("repassword")).sendKeys("lock@313");
 	  driver.findElement(By.id("sub_btn_setpass")).click();
-	  driver.findElement(By.id("login-mobile")).sendKeys("9413435775");
+	  driver.findElement(By.id("login-mobile")).sendKeys("9413435000");
 	  driver.findElement(By.id("login-password")).sendKeys("lock@313");
 	  driver.findElement(By.id("sub_btn")).click();
  }

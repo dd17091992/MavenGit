@@ -1,0 +1,38 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 3, Errors: 0, Skipped: 3, Time elapsed: 306.016 sec <<< FAILURE! - in TestSuite
+signup(com.test.MavenNewProject.Tracko)  Time elapsed: 27.177 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: cannot focus element
+  (Session info: chrome=60.0.3112.113)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 65 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'AM-PC', ip: '192.168.0.7', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\am\AppData\Local\Temp\scoped_dir3280_2277}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: bc1cc2c39a1456166d01cac0a311aa94
+	at com.test.MavenNewProject.Tracko.signup(Tracko.java:55)
+
+beforeTest(com.test.MavenNewProject.Tracko)  Time elapsed: 47.049 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+timeouts
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'AM-PC', ip: '192.168.0.7', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\am\AppData\Local\Temp\rust_mozprofile.deV8BErCkV7v, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, moz:headless=false, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=56.0, platformVersion=6.1, moz:processID=9032.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 6c0445c1-e010-40b0-a282-b5d884db1482
+	at com.test.MavenNewProject.Tracko.beforeTest(Tracko.java:43)
+
+signup(com.test.MavenNewProject.Tracko)  Time elapsed: 214.342 sec  <<< FAILURE!
+org.openqa.selenium.ElementNotVisibleException: 
+Element is not displayed (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 199 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'AM-PC', ip: '192.168.0.7', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0.0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0.0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:16326/, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 07bb8854-b7e5-47f5-8257-f3a2b235887c
+	at com.test.MavenNewProject.Tracko.signup(Tracko.java:54)
+
